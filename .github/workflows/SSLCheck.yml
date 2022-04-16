@@ -34,7 +34,7 @@ jobs:
         npm run build
         cd CheckSSL
         chmod +x checker.sh
-        ./checker.sh www.seanhui.ml fles.seanhui.ml game.seanhui.ml ssl.seanhui.ml dama.seanhui.ml unlock.seanhui.ml
+        ./checker.sh 070527.xyz www.070527.xyz scf.070527.xyz ssl.070527.xyz blog.070527.xyz
         cp -rf ./output/ct.json ../public/ct.json
         echo "ssl.yfun.top" > ../public/CNAME
         
